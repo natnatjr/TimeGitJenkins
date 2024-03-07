@@ -38,7 +38,7 @@ public class Time
 	}
 	
 	public static int getSeconds(String time) throws NumberFormatException, StringIndexOutOfBoundsException 
-	{j
+	{
 		
 		return Integer.parseInt(time.substring(6,8));
 	}
